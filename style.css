@@ -1,11 +1,15 @@
 body {
     background: rgb(125, 198, 205);
-    color: rgb(45, 45, 45);
+    color:white;
     padding: 10px;
-    font-family: arial;
+    font-family: cursive;
+    border-style:outset;
+    border-color:white;
+    border-width:10px;
 }
+
 #all-contents {
-  max-width: 800px;
+    max-width: 800px;
     margin: auto;
 }
 
@@ -16,7 +20,11 @@ nav {
     display: flex;
     padding: 10px;
     margin-bottom: 20px;
+    border-style:groove;
+    border-color:blue;
+    border-width:10px;
 }
+
 h1 {
     display: flex;
     align-items: center;
@@ -24,13 +32,19 @@ h1 {
     flex: 1;
     margin: 0;
 }
+
 #nav-ul {
     list-style-image: none;
 }
+
 .nav-li {
     display: inline-block;
-    padding: 0 10px;
+    padding: 0 50px;
+    border-style:solid;
+    border-color:lightgrey;
+    border-width:5px;
 }
+
 a {
     text-decoration: none;
     color: #fff;
@@ -41,13 +55,16 @@ main {
     background: rgb(8, 62, 240);
     display: flex;
 }
+
 .sidebar {
     margin-right: 25px;
     padding: 10px;
 }
+
 .sidebar-img {
     width: 200px;
 }
+
 .content {
     flex: 1;
     padding: 15px;
@@ -55,34 +72,37 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 4px rgba(251, 247, 247, 0.194) ridge;
+    border: 4px rgba(11, 99, 8, 0.194) groove;
     padding: 8px;
 }
-h2, h3 {
+
+h2,
+h3 {
     margin: 0px;
 }
-         /* portfolio styles */
-         .content h1 {
-            color: green;
-        }
 
-        #portfolio {
-            list-style-type: none;
-            padding-left: 0;
-        }
+/* portfolio styles */
+.content h1 {
+    color: green;
+}
 
-        #portfolio li {
-            background: #7789cb;
-            padding: 10px;
-            border-radius: 10px;
-            margin-bottom: 10px;
-        }
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
 
-        #portfolio li:hover {
-            background: rgb(15, 142, 57);
-        }
+#portfolio li {
+    background: #7789cb;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
 
-        #portfolio a {
-            text-decoration: none;
-            color: #1e5cee;
-        }
+#portfolio li:hover {
+    background: rgb(15, 142, 57);
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #1e5cee;
+}
