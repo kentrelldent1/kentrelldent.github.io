@@ -4,7 +4,7 @@ body {
     padding: 10px;
     font-family: 'Times New Roman', Times, serif;
     border-style:outset;
-    border-color:white;
+    border-color:lightblue;
     border-width:10px;
 }
 
@@ -40,9 +40,6 @@ h1 {
 .nav-li {
     display: inline-block;
     padding: 0 50px;
-    border-style:solid;
-    border-color:lightgrey;
-    border-width:5px;
 }
 
 a {
