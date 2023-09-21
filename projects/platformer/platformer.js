@@ -50,7 +50,6 @@ $(function () {
    createPlatform(200, 500, 100, 20);
    createPlatform(700, 500, 50, 20)
    createPlatform(600, 200, 100, 20);
-
    createPlatform(400, 650, 100, 20);
    createPlatform(250, 200, 200, 20); // short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen;
    createPlatform(800, 300, 200, 20); // short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen;
@@ -79,6 +78,7 @@ $(function () {
    createCannon('right', 700, 3000);
    createCannon('left', 100, 2000);
    createCannon('left', 250, 3000);
+   creatCannon(right, 500, 4000);
 
 
     /////////////////////////////////////////////////
