@@ -79,9 +79,10 @@ circles.push(circle);
             if ( circle.x > canvas.width ) {
                 circle.x = 0;
             }
-            
+            if (circle.y > canvas.height) {
+                circle.y = 0;
+            }
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
-            
 
 
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
